@@ -1,0 +1,31 @@
+/* theme.css */
+.str-video.material-minimal {
+  /* Material 3 Color Palette (Minimalist) */
+  --str-video__primary-color: #6750a4; /* Material Purple */
+  --str-video__background-color: #fef7ff;
+  --str-video__surface-color: #ffffff;
+  
+  /* Material Typography & Borders */
+  --str-video__font-family: 'Roboto', 'Inter', sans-serif;
+  --str-video__border-radius-xl: 28px; /* Material Container corners */
+  --str-video__border-radius-md: 12px;
+  
+  /* Minimalist Grid Spacing */
+  --str-video__grid-gap: 16px;
+}
+
+/* Custom shadow for a "Material" elevated feel */
+.str-video__call-controls {
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  background: var(--str-video__surface-color);
+  border-radius: 40px; /* Pill shaped controls */
+  padding: 8px 24px;
+  margin-bottom: 24px;
+}
+
+/* Remove unnecessary borders for a cleaner look */
+.str-video__participant-view {
+  border: none !important;
+  overflow: hidden;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.05);
+}
